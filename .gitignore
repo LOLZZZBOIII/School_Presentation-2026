@@ -1,0 +1,10 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+
+# Node artifacts (if you add a toolchain later)
+node_modules/
+npm-debug.log
+
+# Local dev files
+.vscode/

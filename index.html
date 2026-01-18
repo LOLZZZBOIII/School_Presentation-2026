@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GitHub — How to Use (School Presentation 2026)</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="slides" id="slides">
+    <section class="slide" data-index="0">
+      <h1>Introduction to GitHub</h1>
+      <p class="subtitle">School_Presentation-2026</p>
+      <p>Presenter: LOLZZZBOIII</p>
+      <p class="hint">Use ← and → or click to navigate</p>
+    </section>
+
+    <section class="slide" data-index="1">
+      <h2>What is Git?</h2>
+      <ul>
+        <li>Distributed version control system</li>
+        <li>Tracks changes to files, enables collaboration</li>
+        <li>Local commits & history</li>
+      </ul>
+    </section>
+
+    <section class="slide" data-index="2">
+      <h2>What is GitHub?</h2>
+      <ul>
+        <li>Hosting for git repositories</li>
+        <li>Provides collaboration tools: pull requests, issues, actions, pages</li>
+        <li>Web UI for viewing code, commits, and history</li>
+      </ul>
+    </section>
+
+    <section class="slide" data-index="3">
+      <h2>Common workflow</h2>
+      <ol>
+        <li>Clone repository to local machine</li>
+        <li>Create a branch for your change</li>
+        <li>Make edits and commit locally</li>
+        <li>Push branch and open a Pull Request (PR)</li>
+        <li>Get review, then merge</li>
+      </ol>
+    </section>
+
+    <section class="slide" data-index="4">
+      <h2>Essential Git Commands</h2>
+      <pre>
+git clone &lt;repo-url&gt;
+git checkout -b my-feature
+git add .
+git commit -m "Brief message"
+git push -u origin my-feature
+      </pre>
+    </section>
+
+    <section class="slide" data-index="5">
+      <h2>Using GitHub</h2>
+      <ul>
+        <li>Create repo (or fork)</li>
+        <li>Open issues to discuss bugs/ideas</li>
+        <li>Use Pull Requests for code review</li>
+        <li>Use Actions for CI and Pages for hosting</li>
+      </ul>
+    </section>
+
+    <section class="slide" data-index="6">
+      <h2>Publishing with GitHub Pages</h2>
+      <ol>
+        <li>Push the site files (index.html, styles.css, script.js) to the default branch (main)</li>
+        <li>Go to your repo Settings → Pages</li>
+        <li>Select "Branch: main" and "Folder: / (root)" then Save</li>
+        <li>Your site becomes: <strong>https://LOLZZZBOIII.github.io/School_Presentation-2026/</strong></li>
+      </ol>
+      <p class="note">Example: https://LOLZZZBOIII.github.io/School_Presentation-2026/</p>
+    </section>
+
+    <section class="slide" data-index="7">
+      <h2>Tips</h2>
+      <ul>
+        <li>Keep commit messages short and clear</li>
+        <li>Use branches for separate features</li>
+        <li>Write README with usage instructions</li>
+        <li>Protect main branch in repo Settings if working with a team</li>
+      </ul>
+    </section>
+
+    <section class="slide" data-index="8">
+      <h2>Resources & Links</h2>
+      <ul>
+        <li><a href="https://docs.github.com/en" target="_blank" rel="noopener">GitHub Docs</a></li>
+        <li><a href="https://git-scm.com/docs" target="_blank" rel="noopener">Git documentation</a></li>
+        <li><a href="https://guides.github.com/activities/hello-world/" target="_blank" rel="noopener">Hello World guide</a></li>
+      </ul>
+    </section>
+
+    <section class="slide" data-index="9">
+      <h2>Thank you!</h2>
+      <p>Questions?</p>
+      <p class="small">You can host this slide with GitHub Pages for easy sharing.</p>
+    </section>
+  </div>
+
+  <button id="prev" class="nav" aria-label="Previous slide">◀</button>
+  <button id="next" class="nav" aria-label="Next slide">▶</button>
+
+  <div id="progress" class="progress"><div class="progress-fill"></div></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
