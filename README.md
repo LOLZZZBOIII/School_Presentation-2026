@@ -2,4 +2,4 @@
 Untuk Cikgu Siti 
 
 ## Selamat Datang
-Selamat Datang ke repositori yang dikendalikan oleh Arif Putra, Raja Muhamad Faris Bin Raja Mokhzani dan Aina Husna. Di sini kami akan perkenalkan dan tunjukkan cara menggunakan GitHub. 
+Selamat Datang ke repositori yang dikendalikan oleh Arif Putra, Raja Muhamad Faris dan Aina Husna. Di sini kami akan perkenalkan dan tunjukkan cara menggunakan GitHub. 
